@@ -6,4 +6,6 @@ function sortear(){
     alert (`quantidade: ${quantidade}`);
     alert (`de: ${de}`);
     alert (`ate: ${ate}`);
+    //
+    
 }
