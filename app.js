@@ -12,8 +12,9 @@ function sortear(){
     while (sorteados.includes(numero)){
         numero = obterNumeroAleatorio(de, ate);
     }
-
     sorteados.push(numero);
+    sorteados.sort((a, b) => a - b);
+
  }
 
 let resultado = document.getElementById('resultado');
@@ -43,4 +44,3 @@ function reiniciar() {
     document.getElementById('resultado').innerHTML = '<label class="texto__paragrafo">Números sorteados:  nenhum até agora</label>';
     alterarStatusBotao();
 }
-kjsahd
